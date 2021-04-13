@@ -1,0 +1,72 @@
+
+/* Partial Background Starts */
+.header-area {
+    height:700px;
+    position:relative;
+    background-image: url('../../images/chairbg.png');
+    background-size: cover;
+}
+
+
+.header-area::after {
+    height:700px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 33%;
+    right: 0;
+    background-color:#3A4256;
+    z-index:-50
+}
+
+/* Partial Background ends */
+.nav-items>a:nth-child(4),
+.nav-items>a:nth-child(5),
+.nav-items>a:nth-child(6)
+{
+    color: white !important;
+}
+
+.header-middle>.row{
+    height: 550px;
+}
+
+.infoCard .inner-box{
+    padding: 40px 10px;
+    border-radius: 5px;
+}
+
+.infoCard h3{
+    margin: 0;
+}
+
+
+
+.custom-primary{
+    background-color: #1CC7C1;
+}
+
+.custom-dark{
+    background-color: #3A4256;
+}
+
+.icon-size{
+    font-size: 38px;
+}
+
+
+.home-service-area{
+    margin:150px auto;
+}
+.serviceCard{}
+.serviceCard .inner-box{}
+.serviceCard .inner-box img{
+    width: 60px;
+}
+.serviceCard .inner-box h4 {
+    color: #3A4256;
+    margin: 20px auto;
+}
+.serviceCard .inner-box small{
+
+}
